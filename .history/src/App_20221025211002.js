@@ -39,8 +39,11 @@ function App() {
   const [todoList, setTodoList] = useState(() => {
     //Sets to custom local storage or predefined todolist
     const savedTodoList = localStorage.getItem("todoList");
-    if (savedTodoList) {
+    if (
+      savedTodoList
+    ) {
       return JSON.parse(savedTodoList);
+      
     } else {
       return initalTodoList;
     }

@@ -43,6 +43,7 @@ function App() {
       savedTodoList
     ) {
       return JSON.parse(savedTodoList);
+      
     } else {
       return initalTodoList;
     }

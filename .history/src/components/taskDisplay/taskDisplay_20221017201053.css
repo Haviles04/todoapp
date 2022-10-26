@@ -1,0 +1,8 @@
+.taskDisplay {
+    margin-top: 20px;
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 10px hsl(0, 0%, 98%);
+}

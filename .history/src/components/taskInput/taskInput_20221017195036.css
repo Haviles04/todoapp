@@ -1,0 +1,13 @@
+.inputContainer{
+    height: 50px;
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskBtn{
+    width:20px;
+}

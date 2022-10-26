@@ -1,0 +1,112 @@
+.taskDisplay {
+  margin-top: 23px;
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 10px 65px 60px hsl(236, 33%, 92%);
+}
+
+.todoList {
+  min-width: 450px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-bottom: 1px solid hsl(236, 33%, 92%);
+}
+
+.checkComplete {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  z-index: -1;
+}
+
+.taskDisplay label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkComplete:checked + .todoText {
+  text-decoration: line-through;
+  color: hsl(0, 0%, 98%);
+}
+
+.checkComplete:checked + .checkboxSpan {
+  background-repeat: no-repeat;
+  background-image: url(../../assests/icon-check.svg),
+    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-position: center;
+}
+
+.checkboxSpan {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid hsl(236, 33%, 92%);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.checkboxSpan:hover{
+    cursor: pointer;
+}
+
+.todoText:hover{
+    cursor: pointer;
+}
+
+.completedActiveOptions{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.todoCount {
+    margin-left: 25px;
+    width:100px;
+    box-sizing: border-box;
+}
+
+.completeActiveAll{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+}
+
+.todoStatusLabel{
+    margin-left: 15px;
+}
+
+.todoStatusLabel:hover{
+    color: hsl(220, 98%, 61%);
+    cursor: pointer;
+}
+
+.completeActiveAll:checked + .todoStatusLabel{
+    color: hsl(220, 98%, 61%);
+}
+
+.clearComplete{
+    width: autol
+    background-color: transparent;
+    border: none;
+    font-family:"Josefin Sans", sans-serif; ;
+    margin-right:25px;
+}
+
+.clearComplete:hover{
+    cursor: pointer;
+    color: hsl(220, 98%, 61%);
+}

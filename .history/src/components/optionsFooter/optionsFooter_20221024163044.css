@@ -1,0 +1,60 @@
+.completedActiveOptions{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.todoCount {
+    margin-left: 25px;
+    width:100px;
+    box-sizing: border-box;
+}
+
+.completeActiveAll{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+}
+
+.todoStatusLabel{
+    margin-left: 15px;
+}
+
+.todoStatusLabel:hover{
+    color: hsl(220, 98%, 61%);
+    cursor: pointer;
+}
+
+.completeActiveAll:checked + .todoStatusLabel{
+    color: hsl(220, 98%, 61%);
+}
+
+.clearComplete{
+    background-color: transparent;
+    border: none;
+    font-family:"Josefin Sans", sans-serif; ;
+    margin-right:25px;
+}
+
+.clearComplete:hover{
+    cursor: pointer;
+    color: hsl(220, 98%, 61%);
+}
+
+@media only screen and (max-width:600px ){
+    .options{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        padding: 0, 50px;
+        height: 50px;
+        top:75px;
+        background-color: white;
+        border-radius: 5px;       
+    }
+  }

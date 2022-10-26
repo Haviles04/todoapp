@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./assests/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.body_dark{
+    background-image: url('./assests/bg-desktop-dark.jpg');
+    background-color: hsl(237, 14%, 26%);
+    height: 100vh;
+}
+
+@media only screen and (max-width:600px ){
+    body,html{
+        background-image: url('./assests/bg-mobile-light.jpg');
+        background-size: 100% 200px, contain;
+    }
+
+    .App{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+  }

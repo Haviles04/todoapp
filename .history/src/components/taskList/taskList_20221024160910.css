@@ -1,0 +1,14 @@
+.taskDisplay {
+  margin-top: 23px;
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 10px 65px 60px hsl(236, 33%, 92%);
+}
+
+@media only screen and (max-width:600px ){
+  .taskDisplay{
+    width: 300px;
+  }
+}

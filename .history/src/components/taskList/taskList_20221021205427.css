@@ -1,0 +1,50 @@
+.taskDisplay {
+  margin-top: 23px;
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 10px 65px 60px hsl(236, 33%, 92%);
+}
+
+.todoList {
+  width: 450px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-bottom:1px solid hsl(236, 33%, 92%);
+}
+
+.checkLabel input{
+    position: absolute;
+    opacity: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.checkLabel{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border:2px solid hsl(236, 33%, 92%);
+    margin-left: 15px;   
+}
+
+.checkboxSpan{
+    position: absolute;
+    margin-left: 45px;
+}
+
+.checkComplete:checked + span{
+    text-decoration:line-through;
+    color:hsl(233, 11%, 84%)
+}
+
+input:checked + .checkLabel{
+    background-color:linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)
+}

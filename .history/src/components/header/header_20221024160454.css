@@ -1,0 +1,32 @@
+.header{
+    padding: 5px;
+    width: 550px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modeToggle{
+    background-image: url('../../assests/icon-moon.svg');
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.modeToggle:hover{
+    cursor: pointer;
+}
+
+.header h1{
+    color: white;
+    letter-spacing: 1rem;
+}
+
+@media only screen and (max-width:600px ){
+    .header{
+        width: 500px;
+    }
+  }

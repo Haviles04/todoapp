@@ -1,0 +1,11 @@
+body, html{
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(./assests/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

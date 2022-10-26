@@ -1,0 +1,31 @@
+.header{
+    position: relative;
+}
+
+.headerContainer
+
+.header img{
+    width: 100vw;
+    height: 300px;
+    z-index: -1;
+}
+
+.header h1{
+
+}
+
+.modeToggle{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 965px;
+    height: 30px;
+    width: 30px;
+    background-image: url('../../assests/icon-moon.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.modeToggle:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.header{
+    display: flex;
+}
+
+.modeToggle{
+    background-image: url('../../assests/icon-moon.svg');
+}

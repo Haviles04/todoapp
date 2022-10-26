@@ -1,0 +1,65 @@
+.inputContainer{
+    height: 65px;
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.inputContainer_dark{
+  background-color: hsl(237, 14%, 26%);
+}
+
+form{
+    display:flex;
+    align-items: center;
+}
+
+.taskInput{
+    width: 450px;
+    height: 30px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+}
+
+.taskInput_dark{
+  background-color: hsl(237, 14%, 26%);
+  color: hsl(234, 39%, 85%);
+}
+
+.circleBtn{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border:2px solid hsl(236, 33%, 92%);
+    background-color: transparent;
+    margin-left: 15px;
+    background-position: center;
+}
+
+.circleBtn_dark{
+  border: 2px solid darkgrey;
+}
+
+.circleBtn:hover{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:600px ){
+  .inputContainer{
+    width: 325px;
+    height: 50px;
+  }
+  
+  
+    .taskInput{
+    width: auto;
+  }
+}

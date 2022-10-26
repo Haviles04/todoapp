@@ -1,0 +1,38 @@
+.inputContainer{
+    height: 65px;
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    display:flex;
+    align-items: center;
+}
+
+.taskBtn{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border:2px solid hsl(236, 33%, 92%);
+    background-color: transparent;
+    margin-left: 15px;
+  
+   
+}
+
+.taskInput{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+}
+

@@ -1,0 +1,13 @@
+.header img{
+    width: 100vw;
+    height: 300px;
+}
+
+.header h1{
+    position: absolute;
+    color: white;
+    margin-top: 75px;
+    margin-left: 450px;
+    font-size: 1rem;
+    letter-spacing: 1rem;
+}

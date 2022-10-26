@@ -1,0 +1,14 @@
+.header{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modeToggle{
+    background-image: url('../../assests/icon-moon.svg');
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}

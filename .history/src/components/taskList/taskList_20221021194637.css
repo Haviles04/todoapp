@@ -1,0 +1,42 @@
+.taskDisplay {
+  margin-top: 20px;
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 10px 65px 60px hsl(236, 33%, 92%);
+}
+
+.todoList {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-bottom: 2px solid hsl(236, 33%, 92%);
+}
+
+.todoList span {
+  margin-left: 20px;
+}
+
+.checkLabel input{
+    display: none;
+}
+
+.checkLabel{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border:2px solid hsl(236, 33%, 92%);
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+.checkLabel span{
+    margin-left: 20px;
+    display: inline-block;
+}

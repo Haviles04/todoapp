@@ -1,0 +1,34 @@
+.taskDisplay {
+  margin-top: 23px;
+  width: 550px;
+  height: auto;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 10px 65px 60px hsl(236, 33%, 92%);
+}
+
+.todoList {
+  width: 450px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-bottom:1px solid hsl(236, 33%, 92%);
+}
+
+.checkboxSpan{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+
+input:checked + span{
+    background-color:red
+}

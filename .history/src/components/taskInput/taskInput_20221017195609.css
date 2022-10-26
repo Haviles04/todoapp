@@ -1,0 +1,25 @@
+.inputContainer{
+    height: 65px;
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskBtn{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    border:2px solid hsl(236, 33%, 92%);
+    background-color: transparent;
+   
+}
+
+.taskInput{
+    width: 400px;
+    height: 30px;
+    margin-bottom:10px;
+    font-family: 'Josefin Sans', sans-serif;
+}

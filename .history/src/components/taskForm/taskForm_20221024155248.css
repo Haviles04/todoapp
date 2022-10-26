@@ -1,0 +1,53 @@
+.inputContainer{
+    height: 65px;
+    width: 550px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+form{
+    display:flex;
+    align-items: center;
+}
+
+.taskInput{
+    width: 450px;
+    height: 30px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+}
+
+.circleBtn{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    border:2px solid hsl(236, 33%, 92%);
+    background-color: transparent;
+    margin-left: 15px;
+    background-image: url('./assests/icon-plus.svg');
+    background-position: center;
+}
+
+.circleBtn:hover{
+    cursor: pointer;
+    background:linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+
+@media only screen and (max-width:600px ){
+  .inputContainer{
+    width: 90%;
+  }
+  
+  
+    .taskInput{
+    width: auto;
+  }
+}

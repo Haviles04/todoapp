@@ -1,0 +1,89 @@
+.completedActiveOptions{
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: darkgray;
+}
+
+.todoCount {
+    margin-left: 25px;
+    width:100px;
+    box-sizing: border-box;
+}
+
+.todoText{
+    margin-right: 10px;
+}
+
+.completeActiveAll{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+    z-index: -1;
+}
+
+.todoStatusLabel{
+    margin-left: 15px;
+}
+
+.todoStatusLabel:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.todoStatusLabel_dark:hover{
+    color: white;
+}
+
+.completeActiveAll:checked + .todoStatusLabel{
+    color: hsl(220, 98%, 61%);
+}
+
+.clearComplete{
+    background-color: transparent;
+    color: darkgray;
+    border: none;
+    font-family:"Josefin Sans", sans-serif; ;
+    margin-right:25px;
+}
+
+.clearComplete:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.clearComplete_dark:hover{
+    color: white;
+}
+
+@media only screen and (max-width:600px ){
+    .options{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        height: 50px;
+        top:75px;
+        background-color: white;
+        border-radius: 5px;       
+    }
+
+    .options_dark{
+        background-color: hsl(235, 25%, 20%);
+    }
+
+    .todoCount{
+        position: absolute;
+    }
+
+    .clearComplete{
+        position: absolute;
+        margin-left: 200px;
+    }
+
+
+  }

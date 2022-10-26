@@ -1,0 +1,13 @@
+body, html{
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.backGround{
+    position: absolute;
+    background-image: url(./assests/bg-desktop-light.jpg);
+    width:100vw;
+}
